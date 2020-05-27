@@ -1,3 +1,5 @@
 * {box-sizing: border-box; display: block;}
-header {width: 100%; font: 24px #689F38 Palatino Linotype; font-variant: small-caps; text-align: center;} 
-div {float: left; border: 2px solid black;}
+header {width: 100%; font: 175% #689F38 Palatino Linotype; font-variant: small-caps; text-align: center;} 
+div {float: left; border: 1px solid; border-color: black;}
+h2 {font-size: 125%;}
+p {font-size: 100%;}
