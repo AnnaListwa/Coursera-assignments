@@ -1,7 +1,7 @@
 * {box-sizing: border-box; display: block; font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;}
 header {width: 100%; font: 175% #689F38 "Palatino Linotype"; font-variant: small-caps; text-align: center;}
-body {margin:auto; padding: auto;}
-div {float: left; position: relative; border: 1px solid; border-color: #000000;}
+body {margin:0; padding: 0;}
+div {float: left; position: relative; margin: 10%; border: 1px solid; border-color: #000000;}
 h2 {font-size: 125%; font-color: #FFFFFF; border: 1px solid #000000; padding: auto; position: absolute; top: 0; right: 0;}
 p {font-size: 100%; padding:auto;}
 div.chicken {background-color: #DBDB70;}
