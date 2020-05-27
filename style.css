@@ -3,7 +3,7 @@ header {width: 100%; font: 175% #689F38; font-variant: small-caps; text-align: c
 body {width: 100%;}
 div {border: 1px solid; border-color: #000000;}
 h2 {margin-block-start: 0; margin-block-end: 0; font-size: 125%; font-color: #FFFAF0; text-align: center; border: 1px solid #000000;}
-p {font-size: 100%; margin: 10%; text-align: justify;}
+p {font-size: 100%; margin: 5%; text-align: justify;}
 div.chicken {background-color: #DBDB70;}
 h2.chicken {background-color: #8D6E63;}
 div.beef {background-color:#D7CCC8;}
@@ -12,21 +12,21 @@ div.sushi {background-color:#00695C;}
 h2.sushi {background-color:#880E4F;}
 @media (min-width: 992px) {
   div {width: 30%; box-sizing: border-box; float: left; position: relative; margin: 17px; padding: 5px;}
-  h2 {width: 40%; margin-block-start: 0; margin-block-end: 0; text-align: center; border: 1px solid #000000; padding: 5px 15px; position: absolute; top: 0; right: 0;}
+  h2 {width: 40%; margin-block-start: 0; margin-block-end: 0; margin-bottom: 15px; text-align: center; border: 1px solid #000000; padding: 5px 15px; position: absolute; top: 0; right: 0;}
 }
 @media (min-width: 768px) and (max-width: 991px) {
   div.chicken {width: 45%; box-sizing: border-box; float: left; margin: 15px; padding: 5px; position: relative;}
   div.beef {width: 45%; box-sizing: border-box; float: left; margin: 15px; padding: 5px; position: relative;}
   div.sushi {width: 90%; box-sizing: border-box; clear: left; margin: 15px; padding: 5px; position: relative;}
-  h2.chicken {width: 40%; margin-block-start: 0; margin-block-end: 0; position: absolute; top: 0; right: 0;}
-  h2.beef {width: 40%; margin-block-start: 0; margin-block-end: 0; position: absolute; top: 0; right: 0;}
-  h2.sushi {width: 40%; margin-block-start: 0; margin-block-end: 0; position: absolute; top: 0; right: 0;}
+  h2.chicken {width: 40%; margin-block-start: 0; margin-block-end: 0; margin-bottom: 15px; position: absolute; top: 0; right: 0;}
+  h2.beef {width: 40%; margin-block-start: 0; margin-block-end: 0; margin-bottom: 15px; position: absolute; top: 0; right: 0;}
+  h2.sushi {width: 40%; margin-block-start: 0; margin-block-end: 0; margin-bottom: 15px; position: absolute; top: 0; right: 0;}
 }  
 @media (max-width:767px){
   div.chicken {width: 100%; box-sizing: border-box; margin: 15px; padding: 5px; position: relative;}
   div.beef {width: 100%; box-sizing: border-box; margin: 15px; padding: 5px; position: relative;}
   div.sushi {width: 100%; box-sizing: border-box; margin: 15px; padding: 5px; position: relative;}
-  h2.chicken {width: 40%; margin-block-start: 0; margin-block-end: 0; position: absolute; top: 0; right: 0;}
-  h2.beef {width: 40%; margin-block-start: 0; margin-block-end: 0; position: absolute; top: 0; right: 0;}
-  h2.sushi {width: 40%; margin-block-start: 0; margin-block-end: 0; position: absolute; top: 0; right: 0;}
+  h2.chicken {width: 40%; margin-block-start: 0; margin-block-end: 0; margin-bottom: 15px; position: absolute; top: 0; right: 0;}
+  h2.beef {width: 40%; margin-block-start: 0; margin-block-end: 0; margin-bottom: 15px; position: absolute; top: 0; right: 0;}
+  h2.sushi {width: 40%; margin-block-start: 0; margin-block-end: 0; margin-bottom: 15px; position: absolute; top: 0; right: 0;}
 }
