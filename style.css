@@ -1,4 +1,4 @@
-* {box-sizing: border-box; display: block;}
+* {box-sizing: border-box; display: block; font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;}
 header {width: 100%; font: 175% #689F38 "Palatino Linotype"; font-variant: small-caps; text-align: center;}
 body {margin:auto; padding: auto;}
 div {float: left; position: relative; border: 1px solid; border-color: #000000;}
