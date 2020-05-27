@@ -16,7 +16,7 @@ h2.sushi {background-color:#880E4F;}
 @media (min-width: 768px) and (max-width: 991px) {
   div.chicken {width: 40%; box-sizing: border-box; float: left; margin: 10px; padding: 5px;}
   div.beef {width: 40%; box-sizing: border-box; float: left; margin: 10px; padding: 5px;}
-  div.sushi {width: 100%; box-sizing: border-box; margin: 10px; padding: 5px;}
+  div.sushi {width: 100%; box-sizing: border-box; clear: left; margin: 10px; padding: 5px;}
 }  
 @media (max-width:767px){
   div {width: 100%; box-sizing: border-box; margin: 15px; padding: 5px;}
