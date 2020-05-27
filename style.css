@@ -1,7 +1,7 @@
 * {box-sizing: border-box; display: block; margin: 0;}
 header {width: 100%; font: 175% #689F38 "Palatino Linotype"; font-variant: small-caps; text-align: center;} 
 div {float: left; position: relative; border: 1px solid; border-color: #000000;}
-h2 {font-size: 125%; font-color: #FFFFFF; border: 1px solid #000000; position: absolute; top: 0; right: 0;}
+h2 {font-size: 125%; font-color: #FFFFFF; border: 1px solid #000000; padding: auto; position: absolute; top: 0; right: 0;}
 p {font-size: 100%;}
 div.chicken {background-color: #DBDB70;}
 h2.chicken {background-color: #8D6E63;}
