@@ -13,7 +13,7 @@ div.sushi {background-color:#00695C;}
 h2.sushi {background-color:#880E4F;}
 @media (min-width: 992px) {
   .chicken-lg, .beef-lg, .sushi-lg {width: 30%; box-sizing: border-box; float: left; position: relative;}
-  main {clear: both;}
+  main {clear: both; padding: 25;}
   .beef-lg {margin-left: 40px; margin-right: 40px;}
   .chicken-lg {margin-left: auto;}
   .sushi-lg {margin-right: auto;}
