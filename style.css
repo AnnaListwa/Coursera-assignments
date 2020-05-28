@@ -22,7 +22,7 @@ h2.sushi {background-color:#880E4F;}
   h2.sushi {width: 40%; margin-block-start: 0; margin-block-end: 0; position: absolute; top: 0; right: 0;}
 }  
 @media (max-width:767px){
-  .chicken-sl, .beef-sl, .sushi-sl {width: 100%; box-sizing: border-box; margin: 15px; padding: 5px; position: relative;}
+  .chicken-sl, .beef-sl, .sushi-sl {width: 100%; box-sizing: border-box; margin: 50px; padding: 5px; position: relative;}
   h2.chicken {width: 40%; margin-block-start: 0; margin-block-end: 0; position: absolute; top: 0; right: 0;}
   h2.beef {width: 40%; margin-block-start: 0; margin-block-end: 0; position: absolute; top: 0; right: 0;}
   h2.sushi {width: 40%; margin-block-start: 0; margin-block-end: 0; position: absolute; top: 0; right: 0;}
