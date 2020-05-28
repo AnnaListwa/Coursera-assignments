@@ -11,7 +11,7 @@ h2.beef {background-color: #757575;}
 div.sushi {background-color:#00695C;}
 h2.sushi {background-color:#880E4F;}
 @media (min-width: 992px) {
-  .chicken-lg, .beef-lg, sushi-lg {width: 33%; box-sizing: border-box; float: left; position: relative; padding: 5px;}
+  .chicken-lg, .beef-lg, sushi-lg {width: 31%; box-sizing: border-box; float: left; position: relative; padding: 5px;}
   h2 {width: 40%; margin-block-start: 0; margin-block-end: 0; text-align: center; border: 1px solid #000000; padding: 5px 15px; position: absolute; top: 0; right: 0;}
 }
 @media (min-width: 768px) and (max-width: 991px) {
