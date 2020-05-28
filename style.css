@@ -1,7 +1,7 @@
 * {box-sizing: border-box; display: block; margin-block-start: 0; margin-block-end: 0; font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;}
 header {width: 100%; font: 175% #689F38; font-variant: small-caps; text-align: center; margin: 15px}
 body {width: 100%; margin: 0;}
-main {width: 100%}
+main {width: 100%; padding: 20px;}
 div {border: 1px solid; border-color: #000000;}
 h2 {margin-block-start: 0; margin-block-end: 0; font-size: 125%; font-color: #FFEB3B; text-align: center; border: 1px solid #000000;}
 p {font-size: 100%; margin-top: 20px; margin-left: 5px; margin-right: 5px; margin-bottom: 5px; text-align: justify;}
@@ -12,11 +12,13 @@ h2.beef {background-color: #757575;}
 div.sushi {background-color:#00695C;}
 h2.sushi {background-color:#880E4F;}
 @media (min-width: 992px) {
-  .chicken-lg, .beef-lg, .sushi-lg {width: 30%; box-sizing: border-box; float: left; position: relative; margin-left: 5px; margin-right: 5px; padding: 15px;}
+  .chicken-lg, .beef-lg, .sushi-lg {width: 30%; box-sizing: border-box; float: left; position: relative; padding: 15px;}
+  div.chicken-lg {margin-right: 10px;)
+  div.beef-lg {margin-right: 10px;}  
   h2 {width: 40%; margin-block-start: 0; margin-block-end: 0; text-align: center; border: 1px solid #000000; padding: 5px 15px; position: absolute; top: 0; right: 0;}
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .chicken-md, .beef-md {width: 50%; box-sizing: border-box; float: left; margin-left: 5px; margin-right: 5px; padding: 5px; position: relative;}
+  .chicken-md, .beef-md {width: 50%; box-sizing: border-box; float: left; padding: 5px; position: relative;}
   .sushi-md {width: 100%; box-sizing: border-box; clear: left; margin-left: 5px; margin-right: 5px; padding: 5px; position: relative;}
   h2.chicken {width: 40%; margin-block-start: 0; margin-block-end: 0; position: absolute; top: 0; right: 0;}
   h2.beef {width: 40%; margin-block-start: 0; margin-block-end: 0; position: absolute; top: 0; right: 0;}
