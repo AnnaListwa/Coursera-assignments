@@ -11,6 +11,7 @@ div.beef {background-color:#D7CCC8;}
 h2.beef {background-color: #757575;}
 div.sushi {background-color:#00695C;}
 h2.sushi {background-color:#880E4F;}
+p.sushi {color: #FBFBFB;}
 @media (min-width: 992px) {
   .chicken-lg, .beef-lg, .sushi-lg {width: 30%; box-sizing: border-box; float: left; position: relative;}
   main {clear: both;}
